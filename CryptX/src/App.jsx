@@ -1,35 +1,15 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+//Cleared the default data in this file for a new application structure 
+//Import all the components of the application (React components)
 
-function App() {
-  const [count, setCount] = useState(0)
+import React from 'react';
 
-  return (
-    <>
-      <div>
-        <a href="https://vite.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </>
-  )
-}
+import Header from './components/Header';
+import Sidebar from './components/Sidebar';
+import Bitcoin from './components/Bitcoin';
+import Ethereum from './components/Ethereum';
+import Litecoin from './components/Litecoin';
+import Cardano from './components/Cardano';
+import BtcPrices from './components/BtcPrices';
+import LiveMarket from './components/LiveMarket';
+import Transactions from './components/Transactions';
 
-export default App
