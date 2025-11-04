@@ -1,4 +1,4 @@
-//Render React function 'Header' component Header component for the application
+//Render React function 'Header' component for the application
 
 function Header () {
     return (

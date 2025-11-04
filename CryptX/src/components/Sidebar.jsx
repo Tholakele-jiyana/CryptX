@@ -1,4 +1,4 @@
-//Render React function 'Sidebar' component Header component for the application
+//Render React function 'Sidebar' component for the application
 
 function Sidebar () {
     return (
