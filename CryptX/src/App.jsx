@@ -13,3 +13,20 @@ import BtcPrices from './components/BtcPrices';
 import LiveMarket from './components/LiveMarket';
 import Transactions from './components/Transactions';
 
+//Define the funtion of the components (export default function)
+
+function App() {
+  return (
+    <div>
+      <Header />
+      <Sidebar />
+      <Bitcoin />
+      <Ethereum />
+      <Litecoin />
+      <Cardano />
+      <BtcPrices />
+      <LiveMarket />
+      <Transactions />
+    </div>
+  )
+}
