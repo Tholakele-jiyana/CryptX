@@ -1,10 +1,10 @@
-import { StrictMode } from 'react'
-import { createRoot } from 'react-dom/client'
-import './index.css'
-import App from './App.jsx'
+//Configuring the main.jsx file to include the index.css file for styling
 
-createRoot(document.getElementById('root')).render(
-  <StrictMode>
-    <App />
-  </StrictMode>,
-)
+import React from 'react';
+import App from './App.jsx';
+import ReactDOM from "react-dom/client";
+
+const root=ReactDOM.createRoot(document.getElementById("root")).render(<React.StrictMode>
+  <App/>
+  </React.StrictMode>
+);
