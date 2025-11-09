@@ -17,7 +17,7 @@ import Transactions from './components/Transactions';
 
 function App() {
   return (
-    <div>
+    <div style = {{position: 'relative', width: '100vw', height: '100vh'}}>  {/* Updated the position of the components */}
       <Header />
       <Sidebar />
       <Bitcoin />
