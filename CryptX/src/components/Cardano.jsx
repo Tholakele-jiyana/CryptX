@@ -3,7 +3,7 @@
 function Cardano() {
   return (
     <header className="mb-3">
-      <div style={{ width: '252px', height: '205px' }} className="mx-auto">
+       <div style= {{position: 'absolute', top: '386px', left: '584px', width: '252px', height: '205px'}} > {/*Dimensions from Figma*/}
         <img 
           src="/src/assets/Cardano.png" 
           alt="Cardano" 

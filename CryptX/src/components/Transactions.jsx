@@ -3,7 +3,7 @@
 function Transactions() {
   return (
     <header className="mb-3">
-      <div style={{ width: '320px', height: '352px' }} className="mx-auto">
+      <div style= {{position: 'absolute', top: '623px', left: '1054px',  width: '320px', height: '352px'}} > {/*Dimensions from Figma*/}
         <img 
           src="/src/assets/Transaction.png" 
           alt="Transactions" 
