@@ -1,5 +1,8 @@
 //Render React function 'Ethereum' component for the application
 
+import EthereumImg from '../assets/Ethereum.png'; // Added import statement because image does not render after deployment
+// Used 'EthereumImg' to avoid naming conflict with the function name
+
 function Ethereum() {
   return (
     <header className="mb-3">

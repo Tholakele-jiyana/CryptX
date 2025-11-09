@@ -1,5 +1,9 @@
 //Render React function 'Transactions' component for the application
 
+import TransactionImg from '../assets/Transaction.png'; // Added import statement because image does not render after deployment
+//Used 'TransactionImg' to avoid conflict with function name
+
+
 function Transactions() {
   return (
     <header className="mb-3">

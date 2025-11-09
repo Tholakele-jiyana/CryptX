@@ -1,5 +1,9 @@
 //Render React function 'Cardano' component for the application
 
+import CardanoImg from '../assets/Cardano.png'; // Added import statement because image does not render after deployment
+// Used 'CardanoImg' to avoid conflict with function name
+
+
 function Cardano() {
   return (
     <header className="mb-3">

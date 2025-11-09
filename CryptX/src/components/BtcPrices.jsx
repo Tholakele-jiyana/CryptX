@@ -1,5 +1,9 @@
 //Render React function 'BtcPrices' component for the application
 
+import StatisticImg from '../assets/Statistic.png'; // Added import statement because image does not render after deployment
+// Used 'StatisticImg' to avoid conflict with function name
+
+
 function BtcPrices() {
   return (
     <header className="mb-3">

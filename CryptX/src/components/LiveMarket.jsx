@@ -1,5 +1,9 @@
 //Render React function 'LiveMarket' component for the application
 
+import LiveMarketImg from '../assets/LiveMarket.png'; // Added import statement because image does not render after deployment
+//Used 'LiveMarketImg' to avoid conflict with function name
+
+
 function LiveMarket() {
   return (
     <header className="mb-3">

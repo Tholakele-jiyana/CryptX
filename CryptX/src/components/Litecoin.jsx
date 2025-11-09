@@ -1,5 +1,8 @@
 //Render React function 'Litecoin' component for the application
 
+import LitecoinImg from '../assets/Litecoin.png'; // Added import statement because image does not render after deployment
+//Used correct import name to avoid conflict with component name
+
 function Litecoin() {
   return (
     <header className="mb-3">
